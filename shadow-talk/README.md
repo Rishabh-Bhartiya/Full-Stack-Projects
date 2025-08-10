@@ -1,3 +1,47 @@
+# Shadow Talk
+
+## Today's Progress - [10 August 2025]
+
+### What I Accomplished Today:
+
+**Project Setup & Architecture:**
+- ✅ Initialized Next.js 15.4.6 project with TypeScript and Tailwind CSS
+- ✅ Set up ESLint configuration with Next.js rules
+- ✅ Configured PostCSS and Tailwind CSS v4
+- ✅ Added Turbopack for faster development builds
+
+**Database Models & Schemas:**
+- ✅ Created comprehensive User model with Mongoose integration
+- ✅ Implemented Message sub-schema for user messages
+- ✅ Added user verification system with expiry codes
+- ✅ Included message acceptance toggle functionality
+- ✅ Set up proper TypeScript interfaces and Document extensions
+
+**Data Validation:**
+- ✅ Implemented Zod schemas for all user interactions:
+  - Sign up validation (username, email, password)
+  - Sign in validation (identifier, password)
+  - Email verification code validation
+  - Message content validation (10-300 characters)
+  - Message acceptance toggle validation
+- ✅ Added username constraints (3-20 chars, alphanumeric only)
+- ✅ Email format validation
+- ✅ Password minimum length requirements
+
+**Project Structure:**
+- ✅ Organized code into logical directories (models, schemas, app)
+- ✅ Set up proper TypeScript configuration
+- ✅ Maintained clean separation of concerns
+
+**Next Steps:**
+- API routes for authentication and messaging
+- Frontend components for user interface
+- Database connection setup
+- Authentication middleware
+- Message handling endpoints
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
