@@ -24,7 +24,7 @@ async function dbConnect(): Promise<void> {
         console.log("DataBase Connected Successfully");        
     } catch (error) {
         console.log("DataBase Connection Failed", error);
-        process.exit(1)
+        throw new Error(`Database connection failed: ${error}`);
     }
 }
 
